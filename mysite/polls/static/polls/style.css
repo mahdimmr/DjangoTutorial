@@ -1,0 +1,37 @@
+
+.index_list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+
+}
+
+.index_list > li {
+    margin-left: 10px;
+    transform: scale(1.1);
+    transition: 500ms;
+}
+
+.index_list > li:hover {
+    /*transform: matrix3d(0,1,1,1,1,0,1,1,1,1,0,1,1,1,1,0);*/
+    border-bottom: 2px solid red;
+    border-top: 2px solid red;
+
+}
+
+.index_container {
+    display: flex;
+    flex-direction: column;
+    direction: ltr;
+    background-color: rgba(50, 50, 100, 0.5);
+}
+
+body {
+    background: url("https://static.djangoproject.com/img/logos/django-logo-positive.png") no-repeat;
+    background-size: auto;
+}
